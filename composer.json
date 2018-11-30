@@ -1,0 +1,26 @@
+{
+    "name": "waughj/html-stylesheet",
+    "description": "Simple class for easy generation o' stylesheets.",
+    "keywords": [ "composer", "template" ],
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jaimeson Waugh",
+            "email": "waughjai@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.0",
+		"waughj/file-loader": "*",
+		"waughj/html-attribute-list": "*"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WaughJ\\HTMLStylesheet\\": "src/"
+        }
+    }
+}
